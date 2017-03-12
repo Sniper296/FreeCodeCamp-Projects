@@ -1,0 +1,169 @@
+/*!
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px/24px Roboto, sans-serif;
+	padding: 16px 16px 0;
+}
+
+main {
+	border-radius: 2px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 900px;
+	overflow: hidden;
+}
+
+header {
+	align-items: flex-end;
+	display: flex;
+	height: 30vh;
+	max-height: 240px;
+	min-height: 100px;
+	padding: 16px;
+	transition: height 0.2s linear, background-position 0s linear;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+figure {
+	align-items: center;
+	clear: right;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content;
+	margin: 16px 0 16px 16px;
+}
+
+figure img {
+	max-width: 250px;
+}
+
+article {
+	padding: 16px;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+p, ol, ul {
+	margin: 16px 0;
+}
+
+dd {
+	margin: 0 16px;
+}
+
+a:link, a:hover, a:active, a:visited, a:visited:hover, a:visited:active {
+	text-decoration: none;
+}
+
+footer#footer {
+	border-radius: 2px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+	margin: 16px auto 0;
+	max-width: 900px;
+	padding: 16px;
+	text-align: center;
+}
+
+#i88x31s {
+	display: flex;
+	justify-content: space-around;
+}
+
+.i88x31 {
+	align-items: center;
+	background: none center right/contain no-repeat scroll padding-box border-box transparent;
+	border: 1px solid transparent;
+	display: flex;
+	font-size: 9px;
+	height: 31px;
+	line-height: 10px;
+	padding: 1px 31px 1px 1px;
+	width: 88px;
+}
+
+.i88x31.html5 {
+	background-image: url(../img/HTML5_Badge.svg);
+	border-color: #e34c26;
+}
+
+.i88x31.css3 {
+	background-image: url(../img/HTML5_Badge.svg);
+	border-color: #e34c26;
+}
+
+.i88x31.es2015 {
+	background-image: url(../img/es-ecmascript-logo.svg);
+	border-color: #f8dc3d;
+}
+
+.i88x31.fcc {
+	background-image: url(../img/freecodecamp_logo.svg);
+	border-color: white;
+}

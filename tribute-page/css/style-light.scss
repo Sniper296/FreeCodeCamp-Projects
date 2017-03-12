@@ -1,0 +1,26 @@
+@import 'constants';
+
+body {
+	background: $colour2-light;
+	color:      $colour5-light;
+}
+
+main {
+	background: $colour3-light;
+}
+
+header {
+	background: $background center center/cover no-repeat scroll padding-box border-box $colour4-dark;
+}
+
+h1 {
+	color: $colour5-dark;
+}
+
+a:link, a:hover, a:active, a:visited, a:visited:hover, a:visited:active {
+	color: $colour4-light;
+}
+
+footer#footer {
+	background: $colour3-light;
+}

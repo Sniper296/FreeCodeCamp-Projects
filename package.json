@@ -1,0 +1,19 @@
+{
+	"name": "freecodecamp",
+	"version": "4.0.4",
+	"description": "If you are reading this, you missed your turning 5km back. At least you didn't drive into that river.",
+	"main": "index.js",
+	"scripts": {
+		"build": "npm run build:tributePage",
+		"build:tributePage": "node-sass -r --indent-type tab --indent-width 1 --output-style expanded -o tribute-page/ tribute-page/",
+		"serve": "php -S 0.0.0.0:80",
+		"test": "echo \"123... 123... Is this thing on?\" && exit 0",
+		"watch": "npm run watch:tributePage",
+		"watch:tributePage": "node-sass -wr --indent-type tab --indent-width 1 --output-style expanded -o tribute-page/ tribute-page/"
+	},
+	"author": "Adam Keet",
+	"license": "MIT",
+	"devDependencies": {
+		"node-sass": "^4.5.0"
+	}
+}
